@@ -1,0 +1,48 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: dtkai
+Upstream-Contact: zhangyu <zhangyub@uniontech.com>
+Source: https://github.com/linuxdeepin/dtkai
+
+# Config files
+Files: .clang-format */misc/*.in config.sh
+Copyright: None
+License: CC0-1.0
+
+# Readme & md
+Files: README*.md */*.md
+Copyright: None
+License: CC0-1.0
+
+# xml toml json conf yaml
+Files:  *.toml *.json *conf *.yaml
+Copyright: None
+License: CC0-1.0
+
+# docs
+Files: docs/*.md docs/*.dox
+Copyright: UnionTech Software Technology Co., Ltd.
+License: CC-BY-4.0
+
+# misc
+Files: misc/*
+Copyright: None
+License: CC0-1.0
+
+# examples
+Files: examples/*
+Copyright: None
+License: CC0-1.0
+
+# debian
+Files: debian/*
+Copyright: None
+License: CC0-1.0
+
+# git github
+Files: .github/* .gitignore
+Copyright: None
+License: CC0-1.0
+
+Files: 3rdparty/aidaemon/* include/dtkai/*
+Copyright: UnionTech Software Technology Co., Ltd.
+License: LGPL-3.0-or-later

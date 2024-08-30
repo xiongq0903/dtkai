@@ -1,0 +1,4 @@
+usr/include/dtkai/*
+usr/lib/*/pkgconfig/dtkai.pc
+usr/lib/*/cmake/dtkai/*.cmake
+usr/lib/*/*/mkspecs/modules/*dtkai.pri

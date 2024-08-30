@@ -1,0 +1,30 @@
+Source: dtkai
+Section: libdevel
+Priority: optional
+Maintainer: Packages Builder <packages@deepin.com>
+Build-Depends:
+ debhelper-compat (= 12),
+ cmake,
+ pkg-config,
+ qhelpgenerator-qt5 | qttools5-dev-tools,
+ qtbase5-dev,
+ qttools5-dev,
+ libdtkcore-dev
+Standards-Version: 4.5.0
+
+Package: libdtkai
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Deepin Tool Kit AI library
+ libdtkai is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkai-dev
+Architecture: any
+Depends:${misc:Depends}, libdtkai( =${binary:Version})
+Description: Deepin Tool Kit AI devel library
+ libdtkio-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
+

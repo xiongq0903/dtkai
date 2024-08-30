@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: dtkai
+Source: https://github.com/linuxdeepin/dtkai
+
+Files: src/*
+Copyright: 2024, Uniontech Software Technology Co., Ltd.
+License: GPL3+
